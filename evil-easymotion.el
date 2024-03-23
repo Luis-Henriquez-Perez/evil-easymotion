@@ -220,6 +220,7 @@
                                          ,scope
                                          ,all-windows
                                          ,initial-point
+                                         nil
                                          ,collect-postprocess
                                          ,include-invisible))
           ,(when post-hook `(funcall ,(if (functionp post-hook)
@@ -250,6 +251,7 @@
                                         ,scope
                                         ,all-windows
                                         ,initial-point
+                                        nil
                                         ,collect-postprocess
                                         ,include-invisible))
          ,(when post-hook `(funcall ,(if (functionp post-hook)
